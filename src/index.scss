@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    position: fixed;
+    top: 40%;
+    left: 0;
+    width: 24%;
+
+    .nav-link {
+        color: #000000;
+
+        &.active {
+            border: 3px solid #0dcaf0;
+            border-left: none;
+        }
+    }
+}
+
+.detail{
+    border: 3px solid #0dcaf0;
+    border-bottom: none;
+    .img{
+        transform: translateY(-55px);
+    }
+}
+
+.card-title{
+    height: 55px;
+}
